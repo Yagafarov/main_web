@@ -61,6 +61,11 @@ section{
 }
 .logo{
     padding: 20px 0;
+    font-weight: bold;
+    font-size: 150%;
+}
+.logo span{
+    color: var(--blue);
 }
 .navbar ul{
     display: flex;
