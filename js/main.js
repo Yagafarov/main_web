@@ -9,7 +9,7 @@ navItems.forEach((item)=>{
         });
     });
 });
-
+document.getElementById("register").classList.toggle("dNone");
 document.onclick = function(e){
     console.log(e.target.classList);
     if(e.target.id == "check"){
